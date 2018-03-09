@@ -108,6 +108,43 @@ body{
     padding: 5rem 0;
     margin-top: 4rem;
   }
+  @media only screen and (max-width: 470px){
+    .main-background{
+      height: 15rem;
+    }
+    .header .container span{
+      display: none;
+    }
+    .headline {
+      padding: 1rem 2rem;
+      width: 100%;
+      top: 10rem;
+    }
+    .headline h4{
+      font-size: 0.77rem;
+    }
+    .headline h1{
+      font-size: 0.77rem;
+    }
+    .products .product{
+      width: 90%;
+      margin: auto;
+    }
+    .product.watch{
+      display: none;
+    }
+    .products, .business-info{
+      flex-wrap: wrap;
+    }
+    .business-info .info {
+      width: 90%;
+      margin: .5rem auto;
+    }
+    footer{
+      text-align: center;
+    }
+  }
+
   @media only screen and (max-width: 1024px) {
     nav ul{
       display: none;
@@ -125,39 +162,4 @@ body{
    .info{
      width: 35%;
    }
-  }
-  @media only screen and (max-width: 470px){
-    .main-background{
-      height: 15rem;
-    }
-    .header.container span{
-      display: none;
-    }
-    .headline {
-      padding: 1rem 2rem;
-      width: 100%;
-      top: 10rem;
-    }
-    .headline h4{
-      font-size: 0.77rem;
-    }
-    .headline h1{
-      font-size: 0.77rem;
-    }
-    .product{
-      width: 90%;
-    }
-    .product.watch{
-      display: none;
-    }
-    .products, .business-info{
-      flex-wrap: wrap;
-    }
-    .info{
-      width: 90%;
-      margin: .5rem auto;
-    }
-    footer{
-      text-align: center;
-    }
   }
